@@ -1,0 +1,36 @@
+--CREATE - ALTER - DROP // DDL COMMANDS
+
+--CREATE DATABASE DbNewTestStudent
+
+--DROP DATABASE DbNewTestStudent
+
+--CREATE TABLE TblLessons
+--(
+--Id SMALLINT IDENTITY(1,1),
+--Title VARCHAR(30)
+--)
+
+--CREATE TABLE TEST
+--(
+--ID INT
+--)
+
+--DROP TABLE TEST
+
+--ALTER TABLE TblLessons
+--ADD Test VARCHAR(7)
+
+--ALTER TABLE TblLessons
+--DROP COLUMN Test
+
+--ALTER TABLE TblLessons
+--ALTER COLUMN Title VARCHAR(50)
+
+--EXEC sp_rename TblLessons,TblNewLessons
+
+--EXEC sp_rename TblNewLessons,TblLessons
+
+--ALTER DATABASE DbStudentExam MODIFY NAME = DbStudentsExams;
+
+--ALTER DATABASE DbStudentsExams SET OFFLINE WITH ROLLBACK IMMEDIATE;
+--ALTER DATABASE DbStudentsExams SET ONLINE;
