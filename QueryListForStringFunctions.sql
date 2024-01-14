@@ -1,0 +1,31 @@
+--SELECT upper('UPPER') as'TEST'
+--SELECT lower('UPPER') as'TEST'
+
+--SELECT City,Upper(City) as'Title' FROM TblCities
+
+--SELECT SUBSTRING('WE ARE STUDYING MSSQL',5,2)
+
+--SELECT SUBSTRING(FirstName,1,1)+'.'+LastName AS 'NAME SURNAME' FROM TblStudents
+
+--SELECT LEFT('HELLO WORLD',3)
+
+--SELECT RIGHT('HELLO WORLD',2)
+
+--SELECT LEN('     TODAY IS SUNNY     ')
+
+--SELECT City,LEN(CITY) AS 'Count' FROM TblCities WHERE LEN(CITY)<9
+
+--SELECT LTRIM('         HERE IS VERY COLD')
+
+--SELECT RTRIM('HERE IS VERY COLD                 ')
+
+--SELECT REPLACE('TODAY I WOULD LIKE TO GO HYDE PARK WITH MY WIFE','LIKE','----')
+
+--SELECT Replace((FirstName +' '+LastName),' ','-') as 'Full Name' FROM TblStudents
+
+--SELECT CITY, CHARINDEX('E',(SELECT City FROM TblCities WHERE ID=2),7)FROM TblCities WHERE ID =2
+
+--SELECT CITY,REVERSE(CITY) AS'REVERSE NAME' FROM TblCities
+
+
+
